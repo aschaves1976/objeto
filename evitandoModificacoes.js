@@ -30,3 +30,8 @@ delete pessoa.nome
 
 console.log(`Não foi possível criar sobrenome nem excluir nome, porém idade foi alterado
 `, pessoa)
+
+/**
+ * Object.freeze
+ * não permite incluir ou excluir atributos nos objetos e nem modificar os valores dos atributos
+ */
